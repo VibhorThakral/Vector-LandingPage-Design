@@ -2,6 +2,7 @@
 #navbar {
   background: var(--primary-color);
   color: #fff;
+  position: unset;
 }
 
 #navbar .logo {
@@ -72,5 +73,11 @@
 #tech-1 .tech-1-content,
 #tech-2 .tech-2-content {
   float: none;
+  width: 100%;
+}
+
+/* Contact Form */
+#contact-form input,
+#contact-form textarea {
   width: 100%;
 }
