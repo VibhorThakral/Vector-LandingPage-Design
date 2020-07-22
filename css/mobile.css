@@ -1,0 +1,76 @@
+/* Navbar */
+#navbar {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar h1 span.text-primary {
+  color: #fff;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 0;
+  color: #fff;
+}
+
+#navbar ul li a:hover {
+  background: #fff;
+  color: var(--primary-color);
+}
+
+/* Utilities */
+.l-heading {
+  font-size: 30px;
+  line-height: 1.2em;
+}
+
+/* Showcase */
+#showcase {
+  background: none;
+  height: 100%;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 30px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Features and FAQ Box */
+.feature,
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* Tech-1, Tech-2 */
+#tech-1,
+#tech-2 {
+  height: 550px;
+}
+
+#tech-1 .tech-1-img,
+#tech-2 .tech-2-img {
+  display: none;
+}
+
+#tech-1 .tech-1-content,
+#tech-2 .tech-2-content {
+  float: none;
+  width: 100%;
+}
